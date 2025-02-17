@@ -34,14 +34,14 @@ const initialState= {
         {name: 'Apple Pie', shortInfo: 'A traditional homemade pie filled with spiced apples and baked in a golden crust.', url: './Images/pastries8.jpg', price: '6.00'},
     ],
     snacks: [
-        {name: 'Avocado Toast', shortInfo: 'Toasted artisan bread topped with mashed avocado, poached egg, and a sprinkle of chili flakes.', url: 'a', price: '9.00'},
-        {name: 'French Toast', shortInfo: 'Golden-brown brioche dipped in cinnamon egg batter, served with maple syrup.', url: 'a', price: '10.00'},
-        {name: 'Oatmeal Bowl', shortInfo: 'A warm bowl of creamy oatmeal topped with fresh berries, nuts, and honey.', url: 'a', price: '8.50'},
-        {name: 'Granola Yogurt', shortInfo: 'A refreshing mix of Greek yogurt, crunchy granola, and seasonal fruits.', url: 'a', price: '8.00'},
-        {name: 'Smoked Salmon Bagel', shortInfo: 'A toasted bagel with cream cheese, smoked salmon, capers, and fresh dill.', url: 'a', price: '12.00'},
-        {name: 'Scrambled Eggs & Toast', shortInfo: 'Fluffy scrambled eggs served with toasted sourdough and butter.', url: 'a', price: '9.50'},
-        {name: 'Caprese Salad', shortInfo: 'A fresh and vibrant salad with tomatoes, mozzarella, basil, and balsamic glaze.', url: 'a', price: '10.00'},
-        {name: 'Quiche Lorraine', shortInfo: 'A savory French tart with a creamy egg custard, crispy bacon, and melted cheese.', url: 'a', price: '11.00'},
+        {name: 'Avocado Toast', shortInfo: 'Toasted artisan bread topped with mashed avocado, poached egg, and a sprinkle of chili flakes.', url: './Images/snacks1.jpg', price: '9.00'},
+        {name: 'French Toast', shortInfo: 'Golden-brown brioche dipped in cinnamon egg batter, served with maple syrup.', url: './Images/snacks2.jpg', price: '10.00'},
+        {name: 'Oatmeal Bowl', shortInfo: 'A warm bowl of creamy oatmeal topped with fresh berries, nuts, and honey.', url: './Images/snacks3.jpg', price: '8.50'},
+        {name: 'Granola Yogurt', shortInfo: 'A refreshing mix of Greek yogurt, crunchy granola, and seasonal fruits.', url: './Images/snacks4.jpg', price: '8.00'},
+        {name: 'Smoked Salmon Bagel', shortInfo: 'A toasted bagel with cream cheese, smoked salmon, capers, and fresh dill.', url: './Images/snacks5.jpg', price: '12.00'},
+        {name: 'Scrambled Eggs & Toast', shortInfo: 'Fluffy scrambled eggs served with toasted sourdough and butter.', url: './Images/snacks6.jpg', price: '9.50'},
+        {name: 'Caprese Salad', shortInfo: 'A fresh and vibrant salad with tomatoes, mozzarella, basil, and balsamic glaze.', url: './Images/snacks7.jpg', price: '10.00'},
+        {name: 'Quiche Lorraine', shortInfo: 'A savory French tart with a creamy egg custard, crispy bacon, and melted cheese.', url: './Images/snacks8.jpg', price: '11.00'},
     ],
 };
 

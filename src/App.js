@@ -3,7 +3,6 @@ import Homepage from "./Pages/Homepage";
 import Menu from "./Pages/Menu";
 import Reservation from "./Pages/Reservation";
 import View from "./Pages/View";
-import About from "./Pages/About";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <Route index element={<View />}/>
         <Route path='menu' element={<Menu />}/>
         <Route path='reservation' element={<Reservation />}/>
-        <Route path='about' element={<About />}/>
       </Route>
     </Routes>
     </BrowserRouter>

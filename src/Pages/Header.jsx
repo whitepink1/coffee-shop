@@ -1,12 +1,13 @@
-import NavButton from "../Components/NavButton"
+import { Link } from "react-router";
+import NavButton from "../Components/NavButton";
+import logo from '../Images/logo.png';
 
 function Header() {
-    return (<header className="flex justify-between px-10 bg-coffee-100 py-5">
-        <div>Logo</div>
-        <div className="flex justify-between">
+    return (<header className="fixed z-20 flex px-[12vw] items-center justify-between w-[100%] bg-coffee-300/95 bg-gradient-to-t from-coffee-100/95">
+        <Link to='/'><img className="h-12 drop-shadow-2xl" src={logo} alt='Logo'/></Link>
+        <div className="flex justify-between my-3">
             <NavButton dest={'/'}>Homepage</NavButton>
             <NavButton dest={'/menu'}>Menu</NavButton>
-            <NavButton dest={'/about'}>About</NavButton>
             <NavButton dest={'/reservation'}>Reservation</NavButton>
         </div>
     </header>)

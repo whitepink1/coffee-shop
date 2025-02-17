@@ -14,7 +14,7 @@ function TwoSidedCard({children, img, name, price, sale }) {
                 </div>
             </div>
             <div className="absolute flex justify-between inset-0 h-full w-full rounded-xl bg-coffee-800 bg-gradient-to-tr from-coffee-50/15 [transform:rotateY(-180deg)] [backface-visibility:hidden]">
-                <p className="flex justify-center items-center text-center text-2xl text-coffee-50 m-2 shadow-lg shadow-coffee-50 underline decoration-1">{children}</p>
+                <p className="flex justify-center items-center text-center text-2xl text-coffee-50 m-2 shadow-sm shadow-coffee-50/50 underline decoration-1">{children}</p>
             </div>
         </div>
     </div>)
