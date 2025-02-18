@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 function NavButton({children, dest}) {
     return (
-    <NavLink to={dest} className={`bg-coffee-50/50 mx-3 py-1 px-2 rounded-full shadow-md`}>{children}</NavLink>)
+    <NavLink to={dest} className={`text-md font-semibold text-coffee-800 mx-5 p-1`}>{children}</NavLink>)
 }
 
 export default NavButton;

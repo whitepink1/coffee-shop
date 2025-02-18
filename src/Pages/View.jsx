@@ -21,7 +21,7 @@ function View() {
         </div>
         </main>
         <div className="h-fit relative bg-coffee-100 flex-col text-center justify-center items-center">
-            <h2 className="inline-block rounded-3xl text-6xl font-bold drop-shadow-xl text-coffee-700 my-2 px-3 py-4 border-x-4">Café Royal is...</h2>
+            <h2 className="inline-block rounded-3xl text-6xl font-bold drop-shadow-xl text-coffee-700 mb-2 mt-5 px-3 py-4 border-x-4">Café Royal is...</h2>
             <div className="flex justify-center flex-wrap py-6">
                 <SpecCart img={img1}>Freshly roasted beans</SpecCart>
                 <SpecCart img={img2}>Homemade baking</SpecCart>
@@ -35,7 +35,7 @@ function View() {
         </div>
             
         <div id="hot-offers" className="h-fit relative bg-coffee-100 text-center">
-            <h2 className="inline-block rounded-3xl text-6xl font-bold text-coffee-600 my-2 px-3 py-4 text-center drop-shadow-xl border-y-4">Hot offers</h2>
+            <h2 className="inline-block rounded-3xl text-6xl font-bold text-coffee-600 my-5 px-3 py-4 text-center drop-shadow-xl border-y-4">Hot offers</h2>
             <div className="flex justify-center flex-wrap pb-[3.5rem]">
                 <TwoSidedCard name={coffee[2].name} price={coffee[2].price} img={coffee[2].url} sale='25'>{coffee[2].shortInfo}</TwoSidedCard>
                 <TwoSidedCard name={tea[5].name} price={tea[5].price} img={tea[5].url} sale='10'>{tea[5].shortInfo}</TwoSidedCard>

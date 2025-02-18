@@ -7,9 +7,23 @@ html {
 }
 
 .active {
-    @apply scale-110 font-semibold border-coffee-800/20 border-x;
+    @apply scale-105 font-bold text-coffee-700 border-b-2;
 }
 
 #map {
     @apply h-[52vh] w-[75dvw];
+}
+
+
+#menus {
+  animation: appearing 400ms ease-out;
+}
+
+@keyframes appearing {
+  0% {
+    opacity: 0.15;
+  }
+  100% {
+    opacity: 1;
+  }
 }
