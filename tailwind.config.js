@@ -39,6 +39,7 @@ module.exports = {
       backgroundImage: {
         'main1': 'url("/src/Images/main_2.jpg")',
         'main2': 'url("/src/Images/main_3.jpg")',
+        'main3': 'url("/src/Images/main_4.jpg")',
       },
       keyframes: {
         appear: {

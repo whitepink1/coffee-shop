@@ -10,6 +10,13 @@ html {
     @apply scale-105 font-bold text-coffee-700 border-b-2;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 #map {
     @apply h-[52vh] w-[75dvw];
 }
